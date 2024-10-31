@@ -1,21 +1,14 @@
-import { Text, SafeAreaView, StyleSheet } from 'react-native';
+// App.js
 
-
+import React from "react";
+import { Provider } from "react-redux";
+import { store } from "./redux/store";
+import TodoApp from "./components/TodoApp";
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      
-    </SafeAreaView>
+    <Provider store={store}>
+      <TodoApp />
+    </Provider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    backgroundColor: '#ecf0f1',
-    padding: 8,
-  },
-  
-});
