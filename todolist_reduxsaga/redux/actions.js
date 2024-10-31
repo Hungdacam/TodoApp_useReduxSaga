@@ -1,6 +1,6 @@
-export const FETCH_TODOS="FETCH_TODOS";
-export const FETCH_TODOS_SUCCESS = "FETCH_TODOS_SUCCES";
-export const FETCH_TODOS_FAIL = "FETCH_TODOS_FAIL";
+export const FETCH_TODO="FETCH_TODO";
+export const FETCH_TODO_SUCCESS = "FETCH_TODO_SUCCES";
+export const FETCH_TODO_FAIL = "FETCH_TODO_FAIL";
 
 export const ADD_TODO = "ADD_TODO";
 export const ADD_TODO_SUCCESS = "ADD_TODO_SUCCESS";
